@@ -1,0 +1,140 @@
+/*following property allows to include the padding and border total width and height*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*changes backgroud color of the body*/
+body {
+  background-color: #d9dcd6;
+}
+
+/*styled applied to page header*/
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+/*styled applied to h1 inside header tag*/
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/*changed color for "seo" text inside header */
+.seo {
+  color: #d9dcd6;
+}
+/*styled applied for links inside header */
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/*set 
+.header nav ul {
+list*/
+
+.links {
+  display: inline-block;
+  margin-left: 25px;
+}
+/*styled applied for link text*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*size for paragraph text*/
+p {
+  font-size: 16px;
+}
+/*added backgroud image and styled */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*content under this class will move to left*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/*content under this class will move to right*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/*set height to for the image*/
+.seoimage {
+  max-height: 200px;
+}
+
+/*font size for h2 header*/
+.medium-header-text {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/*styled applied to seo sections and contents  */
+.services {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/*styled applied to benefits sections  */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+/*styled added for leaderandcost section*/
+.leadbrandcost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/*font size for h3 header*/
+.small-header-text {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*styled images under benefits section */
+.benefitsimages {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/*styled footer and content */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+/*text size for footer */
+.footer h2 {
+  font-size: 20px;
+}
