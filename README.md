@@ -23,11 +23,11 @@ The following image shows the web application's appearance and functionality:
 ```
 ## Tests
 
--- Verify the view source code shows semantic HTML elements
--- Verify elements follow logical structure independent of styling and positioning
--- Verify all image elements has accessible alt attributes
--- Verify heading attributes fall in sequential order
--- Verify title element has a concise, descriptive title
+* Verify the view source code shows semantic HTML elements
+* Verify elements follow logical structure independent of styling and positioning
+* Verify all image elements has accessible alt attributes
+* Verify heading attributes fall in sequential order
+* Verify title element has a concise, descriptive title
 
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
