@@ -1,4 +1,4 @@
-/*following property allows to include the padding and border total width and height*/
+/*following property allows to include the padding and border total width and height of*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -23,7 +23,7 @@ body {
   font-size: 48px;
 }
 
-/*changed color for "seo" text inside header */
+/*changes color for "seo" text inside header */
 .seo {
   color: #d9dcd6;
 }
@@ -49,11 +49,11 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-/*size for paragraph text*/
+/*font size for paragraph text*/
 p {
   font-size: 16px;
 }
-/*added backgroud image and styled */
+/*background image for hero class*/
 .hero {
   height: 800px;
   width: 100%;
@@ -63,17 +63,17 @@ p {
   background-position: center;
 }
 
-/*content under this class will move to left*/
+/*content under this class will move to the left*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
-/*content under this class will move to right*/
+/*content under this class will move to the right*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
-/*set height to for the image*/
+/*added height for the image under services */
 .seoimage {
   max-height: 200px;
 }
@@ -84,7 +84,7 @@ p {
   font-size: 36px;
 }
 
-/*styled applied to seo sections and contents  */
+/*styled applied to seo services sections and contents  */
 .services {
   margin-bottom: 20px;
   padding: 50px;
@@ -134,7 +134,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-/*text size for footer */
+/*font size for footer */
 .footer h2 {
   font-size: 20px;
 }
